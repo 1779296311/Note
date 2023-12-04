@@ -25,6 +25,7 @@
 ![gitm1](./pic/gitm_1.png)
 --
 ![gitm2](./pic/gitm_2.png)
+--
 
 2. git rebase -i
 --
@@ -83,7 +84,7 @@
     1. 没commit
 
 13. git reset
-    1. 未提交的文件 - git restore， git checkout
+    1. 未add的文件 - git restore， git checkout
     2. 已add的文件 - git reset，git restore --stage
         1. 一步到位直接把硬盘上的也改了 - git checkout HEAD
     3. 已经commit 
